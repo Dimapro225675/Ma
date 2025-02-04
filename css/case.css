@@ -1,0 +1,142 @@
+.case {
+    position: relative;
+}
+
+.case__title {
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 360px;
+    line-height: 58.32px;
+    font-weight: 500;
+}
+
+.case__inner {
+    display: flex;
+    margin-bottom: 116.18px;
+}
+
+.case__text {
+    color: grey;
+    max-width: 580px;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.44px;
+    margin-top: 64px;
+    margin-left: 116px;
+}
+
+.case__line {
+    margin-bottom: 113.78px;
+}
+
+.case__block {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
+}
+
+.case__number {
+    width: 326px;
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.87px;
+}
+
+.case__description {
+    width: 356px;
+    max-width: 100%;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+}
+
+.case__sub-text {
+    width: 315.34px;
+    max-width: 100%;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: grey;
+}
+
+.case__link {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    max-width: max-content;
+    margin-top: 167px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: underline;
+    display: flex;
+    transition: background-color .4s, border .4s, color.4s;
+}
+
+.case__link:hover {
+    background-color: transparent;
+    border-color: var(--black);
+}
+
+.case__link:focus {
+    background-color: var(--black);
+    color: var(--black);
+    border-color: transparent;
+}
+
+.case__separator {
+    margin-top: 108px;
+    margin-bottom: 114px;
+}
+
+.case__link2 {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    max-width: max-content;
+    margin-top: 29px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: underline;
+    display: flex;
+    transition: background-color .4s, border .4s, color.4s;
+}
+
+.case__link2:hover {
+    background-color: transparent;
+    border-color: var(--black);
+}
+
+.case__link2:focus {
+    background-color: var(--black);
+    color: var(--black);
+    border-color: transparent;
+}
+
+.case__link3 {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    max-width: max-content;
+    margin-top: 250px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: underline;
+    display: flex;
+    color: grey;
+    transition: background-color .4s, border .4s, color.4s;
+}
+
+.case__link3:hover {
+    background-color: transparent;
+    border-color: var(--black);
+}
+
+.case__link3:focus {
+    background-color: var(--black);
+    color: var(--black);
+    border-color: transparent;
+}

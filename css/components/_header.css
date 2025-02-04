@@ -1,0 +1,40 @@
+.header {
+    margin: 100px 0 200px;
+    color: var(--black)
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.header__list {
+    display: flex;
+    gap: 26px;
+}
+
+.header__link {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 2px;
+    transition: background-color .4s, border .4s, color.4s;
+}
+
+.header__link:hover {
+    background-color: transparent;
+    border-color: var(--black);
+}
+
+.header__link:focus {
+    background-color: var(--black);
+    color: var(--black);
+    border-color: transparent;
+}

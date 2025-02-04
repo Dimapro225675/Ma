@@ -1,0 +1,32 @@
+.contact__inner {
+    max-width: 1120;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.contact__info {
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+}
+
+.contact__link {
+    font-size: 32px;
+}
+
+.contact__text {
+    max-width: 450px;
+    font-size: 32px;
+}
+
+.contact__subtext {
+    font-size: 18px;
+}
+
+.contact__text img{
+    display: inline-block;
+}
