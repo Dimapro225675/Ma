@@ -38,3 +38,24 @@
     color: var(--black);
     border-color: transparent;
 }
+
+@media (max-width: 1200px){
+    .header__link {
+        font-size: 18px;
+        font-weight: 450;
+    }
+}
+
+@media (max-width: 992px){
+    .header__link {
+        font-size: 15px;
+        font-weight: 450;
+    }
+}
+
+@media (max-width: 760px){
+    .header__link  {
+        font-size: 12px;
+        font-weight: 450;
+    }
+}
