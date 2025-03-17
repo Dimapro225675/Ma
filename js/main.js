@@ -1,11 +1,16 @@
 const menuBtn = document.querySelector('.menu-btn');
-let menuOpen = false;
+const menuHeader = document.querySelector('.header__mobile');
+
 menuBtn.addEventListener('click', () => {
-  if(!menuOpen) {
-    menuBtn.classList.add('open');
-    menuOpen = true;
-  } else {
-    menuBtn.classList.remove('open');
-    menuOpen = false;
-  }
+  menuBtn.classList.toggle('open');
+  menuHeader.classList.toggle('active');
+});
+
+const swiper = new Swiper('.swiper', {
+  loop: true,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });
